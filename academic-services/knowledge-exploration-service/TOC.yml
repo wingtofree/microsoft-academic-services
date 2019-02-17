@@ -10,14 +10,27 @@
   items:
   - name: Setup MAKES engine provisioning
     href: get-started-setup-provisioning.md
-- name: How to
-  expanded: true
+- name: Concepts
+  expanded: false
   items:
-  - name: Deploy MAKES engines
-    expanded: true
+  - name: Top-N vs. full text search
+- name: How-to guides
+  expanded: false
+  items:
+  - name: Index design
+    expanded: false
     items:
     - name: Using Azure Management Portal
       href: how-to-deploy-makes-azure-management-portal.md
+- name: Tutorials
+  expanded: false
+  items: 
+  - name: Create an index
+    href: tutorials-create-index
+  - name: Deploy service host
+    href: tutorials-deploy-service-host
+  - name: Build interactive search website
+    href: tutorials-build-search-website
 - name: Reference
   expanded: true
   items:
