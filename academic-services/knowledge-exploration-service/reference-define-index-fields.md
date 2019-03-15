@@ -25,8 +25,8 @@ composite | Composition of multiple sub-fields, meant to model complex data type
 
 Quantifier | Description
 --- | ---
-** | Indicates the field can have zero or more values
-++ | Indicates the field can have one or more values
+\* | Indicates the field can have zero or more values 
+\+ | Indicates the field can have one or more values
 ? | Indicates the field can have zero or one value
 
 Examples:
