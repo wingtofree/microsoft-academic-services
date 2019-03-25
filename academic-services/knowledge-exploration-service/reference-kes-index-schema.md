@@ -18,8 +18,9 @@ int64 | Signed 64-bit integer
 double | Double-precision floating point value
 date | Date string using the format YYYY-MM-DD
 guid | Globally unique identifier string using the format "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-blob | Compressed text string (TODO: figure out maximum size)
-composite | Composition of multiple sub-fields, meant to model complex data types.
+blob | Compressed text string (TODO: figure out maximum size), is not searchable and can only be retrieved
+jsonBlob | JSON object, is not searchable and can only be retrieved
+composite | Composition of multiple sub-fields, **cannot include nested composite fields**
 
 ### Data type quantifiers
 
