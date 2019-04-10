@@ -414,14 +414,12 @@ In prerequisite [Set up Azure Data Lake Analytics](get-started-setup-azure-data-
     1. Deselect the "Base 64 Encode Keys" check box
     1. Change parsing mode to "Delimited text"
     1. Deselect the "First Line Contains Headers" check box
-    1. Enter a tab character for the delimiter character
+    1. Enter a tab character for the delimiter character (use the tab in the code block below to copy/paste)
 
         ```
-        Copy/paste the following character inside the quotes: "	"
+        Copy/paste the character inside the quotes: "	"
         ```
 
-        > [!TIP]
-        > Unfortunately you can't press the "tab" key to have it insert a tab character. Instead highlight the space between the following quotation marks and copy/paste the character into the delimiter character field: ```"	"```
     1. Enter "id,rank,estimated_citations,year,authors,title,fields_of_study" for the delimiter headers
     1. Click the "Submit" button
 
