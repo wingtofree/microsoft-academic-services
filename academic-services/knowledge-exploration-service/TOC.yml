@@ -21,15 +21,25 @@
 - name: Reference
   expanded: true
   items:
-  - name: MAKES APIs
+  - name: Entity schema
     expanded: true
     items:
-      - name: Entity API
-        href: reference-entity-api.md
-      - name: Semantic Interpretation API
-        href: reference-semantic-interpretation-api.md
-  - name: KES API methods
-    href: /azure/cognitive-services/KES/webapi
+      - name: Schema basics
+        href: reference-schema-basics.md
+      - name: Affiliation entity
+        href: reference-schema-affiliation.md
+      - name: Author entity
+        href: reference-schema-author.md
+      - name: Conference series entity
+        href: reference-schema-conference-series.md
+      - name: Conference instance entity
+        href: reference-schema-conference-instance.md
+      - name: Field of study entity
+        href: reference-schema-field-of-study.md
+      - name: Journal entity
+        href: reference-schema-journal.md
+      - name: Paper entity
+        href: reference-schema-paper.md
 - name: Resources
   expanded: true
   items:
